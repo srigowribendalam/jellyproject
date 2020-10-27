@@ -1,4 +1,7 @@
 .App {
   text-align: center;
 }
-
+DropdownButton {
+  width:5px;
+  height:5px
+}
