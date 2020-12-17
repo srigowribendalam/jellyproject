@@ -1,13 +1,196 @@
-.App {
-  text-align: center;
-}
-@media all and (min-width: 360px) {
-  .Login {
-    padding: 40px 0;
-  }
 
-  .Login form {
-    margin: 0 auto;
-    max-width: 320px;
+@media screen and (min-width: 359px) {
+  .left-button{
+  background-color: #FFCC00;
+  margin-top: -700px;
+  color: black;
+  margin-left:100px;
+  border-color: rgba(10,10,10,0.8);
   }
+  .contacttext{
+    color:black;
+    margin-left: 10px;
+  }
+  .text1{
+    color:white;
+  }
+  .text{
+    color:black;
+  }
+  .text:hover{
+   color:#4FD84F; 
+  }
+  .imageleft {
+    position:absolute;
+    left:75px;
+    margin-top: -460px;
+    }
+  .aboutleft {
+    position:absolute;
+    left:75px;
+    margin-top: -640px;
+    }
+    .termsleft {
+      position:absolute;
+      left:75px;
+      margin-top: -440px;
+      }    
+  .about1left {
+    position:absolute;
+    left:75px;
+    margin-top: -340px;
+    }
+  .about2left {
+     position:absolute;
+     left:500px;
+     margin-top: -600px;
+    }
+    .about3left {
+      position:absolute;
+      left:75px;
+      margin-top: -140px;
+      color:white;
+     }
+  .top{
+     margin-top: 280px;
+     margin-left: 64px;
+  }
+  .button1{
+    background-color: #4FD84F; 
+    width: 150px;
+    border-color: #4FD84F;
+    border-radius: 50px;
+    text-align: center;
+  }
+  .button1:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+  }
+  .signup {
+    position:absolute;
+    left:600px;
+    margin-top: -70px;
+    color:white;
+   }
+  .signupbutton{
+    background-color: #4FD84F; 
+    width: 150px;
+    border-color: #4FD84F;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .signupbutton:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+  }
+  .login-button{
+    background-color: #BDA083; 
+    width: 150px;
+    border-color: #BDA083;
+    border-radius: 50px;
+    text-align: center;
+  }
+  .login-button:hover{
+    background-color: #BDA083; 
+    border-color: #BDA083;
+  }
+  .textcolor{
+    color: #4FD84F;
+  }
+  .space{
+    margin-left: 30px;
+  }
+  .imagewidth{
+    width:500px;
+    height:400px;
+    margin-left:30px;
+    margin-top:-30px;
+  }
+  .imagewidth1{
+    width:450px;
+    height:450px;
+    margin-top:-30px;
+  }
+  .imagewidth2{
+    width:500px;
+    height:450px;
+    margin-top:-30px;
+  }
+.progress-bar {  
+  background-color: #BDA083;
+  height:8px;
+  width:92px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.progress-bar1 {  
+  background-color: #BDA083;
+  height:8px;
+  width:60px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.contactleft {
+  position:absolute;
+  left:230px;
+  margin-top: -830px;
+  color:white;
+  font-size: 180px;
+ }
+ .contactcard {
+  position:absolute;
+  left:180px;
+  margin-top: -700px;
+  width:900px;
+  height:650px;
+  background-color: white;
+ }
+ .box{
+   height:350px;
+   width:350px;
+   background-color:white;
+   margin-top:-450px;
+   margin-left:500px;
+   box-shadow: 5px 0.5px #dedfe0;
+ }
+ input{
+   width:280px;
+   margin-bottom: 20px;
+   border-color:1px solid grey;
+ }
+ textarea{
+  width:280px;
+  margin-bottom: 20px;
+  border-color:1px solid grey; 
+ }
+ .subbutton{
+  width:280px;
+  margin-bottom: 20px;
+  border-color:#4FD84F;
+  background-color: #4FD84F;
+  color:white;
+ }
+ .subbutton:hover{
+  border-color:#4FD84F;
+  background-color: #4FD84F;
+ }
+ .circle{
+  height: 8px;
+  width: 8px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left:60px;
+  margin-right:60px;
+ }
+ 
+.footer{
+  margin-left: 110px;
+}
+.footer1{
+color:white;
+height: 0.5px;
+width:1010px;
+margin-left:120px;
+}
 }

@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
-import Table1 from './components/Table';
-import InputField from './components/InputField';
+import Routes from './components/Routes';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+
 
 class App extends React.Component {
  constructor(props){
@@ -10,8 +12,9 @@ class App extends React.Component {
 render(){
    return (
     <div>
-      {/* <Table1/> */}
-      <InputField />
+       <Router>
+        <Routes />
+      </Router>
     </div>
   );
 }
