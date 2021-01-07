@@ -1,0 +1,41 @@
+{
+    "nodes": [ 
+        { 
+          "id": "id1",
+          "name": "name1",
+          "val": 1 
+        },
+        { 
+          "id": "id2",
+          "name": "name2",
+          "val": 2 
+        },
+        { 
+            "id": "id3",
+            "name": "name3",
+            "val": 3 
+          },
+          { 
+            "id": "id4",
+            "name": "name4",
+            "val": 4
+          },
+          { 
+            "id": "id5",
+            "name": "name5",
+            "val": 5
+          }
+    ],
+    "links": [
+        {
+            "source": "id1",
+            "target": "id2"
+        },
+        {
+            "source": "id2",
+            "target": "id3"
+        }
+        
+    ]
+   
+}

@@ -1,0 +1,26 @@
+.homebutton{
+    background-color: #4FD84F; 
+    width: 150px;
+    border-color: #4FD84F;
+    border-radius: 50px;
+    text-align: center;
+    margin:auto;
+    padding-top: 7px;
+    padding-bottom: 3px;
+  }
+.homebutton:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+  }
+@media screen and (max-width: 960px) {
+    .homebutton{
+        background-color: #4FD84F; 
+        width: 8.7rem;
+        border-color: #4FD84F;
+        border-radius: 30px;
+        text-align: center;
+        margin:auto;
+        padding-top:7px;
+        padding-bottom: 3px;
+      }
+}

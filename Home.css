@@ -1,0 +1,85 @@
+.homeimage{
+    width:95%;
+    height:90%;
+    margin-top: 2.8rem;
+    animation-name:blur;
+    animation-duration: 5s;
+  }
+  @keyframes blur {
+    from { 
+    filter: blur(10px);
+      width: 100%;
+    }
+  
+    to {
+      filter: blur(0px);
+      width: 100%;
+    }
+  }
+.homebutton{
+    background-color: #4FD84F; 
+    width: 150px;
+    border-color: #4FD84F;
+    border-radius: 50px;
+    text-align: center;
+    margin:auto;
+    padding-top: 7px;
+    padding-bottom: 3px;
+  }
+.homebutton:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+  }
+.imageleft {
+    position:absolute;
+    left:4.68rem;
+    margin-top: -450px;
+    animation-name:blur;
+    animation-duration: 4s;
+    animation-delay:5ms;
+    }
+@keyframes blur {
+      from { 
+      filter: blur(10px);
+        width: 100%;
+      }
+    
+      to {
+        filter: blur(0px);
+        width: 100%;
+      }
+    }
+.mainheading{
+        color:#4FD84F;
+        font-size: 55px;
+      }
+  @media screen and (max-width: 960px) {
+    .homeimage{
+        width:100%;
+        margin-top: 40vw;
+      }
+    .homebutton{
+        background-color: #4FD84F; 
+        width: 8.7rem;
+        border-color: #4FD84F;
+        border-radius: 30px;
+        text-align: center;
+        margin:auto;
+        padding-top:7px;
+        padding-bottom: 3px;
+      }
+    .imageleft {
+        position:absolute;
+        left:1rem;
+        margin-top: -60vw;
+        animation-name:jelly;
+        animation-duration: 3s;
+        }
+    .mainheading{
+        color:#4FD84F;
+        font-size: 7vw;
+        }
+    .subheading{
+        font-size: 5vw;
+        }
+  }

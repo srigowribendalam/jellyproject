@@ -1,0 +1,181 @@
+.about-image{
+    margin-top:5rem;
+    width:100%;
+  }
+.aboutus-textalign {
+    position:absolute;
+    left:75px;
+    margin-top: -27rem;
+    font-size: 60px;
+    color:#4FD84F;
+  } 
+  .management-image{
+    width:100%;
+    height:70%;
+    margin-top: 2.5rem;
+    margin-left: 1.8rem;
+  }
+.about-trending {
+    position:absolute;
+    left:4.68rem;
+ }
+ .marginLeft{
+   margin-left: 4rem;
+ }
+.textcolor{
+    color: #4FD84F;
+ }
+.text-black{
+    color:black;
+ }
+ .trends{
+   margin-left: 4.68rem;
+ }
+ .carousel-heading{
+    margin-left:4.68rem; 
+    margin-bottom: -3rem;
+    margin-top: 1rem;
+  }
+  .jellyit-btn{
+    background-color: #4FD84F; 
+    width: 150px;
+    border-color: #4FD84F;
+    border-radius: 50px;
+    text-align: center;
+    margin:auto;
+    padding-top: 7px;
+    padding-bottom: 3px;
+  }
+  .jellyit-btn:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+  }
+  .about-card{
+    align-items:center;
+    padding:2rem, 3rem;
+  }
+  .settings-icon{
+    width:2.5rem;
+    height:2.5rem
+  }
+  .settings-icon-textcolor{
+    color:grey;
+  }
+  .fab-heading-left {
+    position:absolute;
+    left:4.68rem;
+    margin-top: -140px;
+    color:white;
+   }
+   .termsheading{
+    font-size: 30px;
+  }
+  .signupbutton{
+    background-color: #4FD84F; 
+    width: 150px;
+    border-color: #4FD84F;
+    border-radius: 15px;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 0.7rem;
+  }
+  .signupbutton:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+  }
+  .aboutbutton{
+    background-color: #4FD84F; 
+    width: 8.7rem;
+    border-color: #4FD84F;
+    border-radius: 30px;
+    text-align: center;
+    margin:auto;
+    padding-top:5px;
+    padding-bottom: 9px;
+  }
+.aboutbutton:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+  }
+  @media screen and (max-width: 960px) {
+   .about-image{
+     margin-top:12rem;
+     width:100%;
+   }
+   .terms1Image{
+    margin-top:2rem;
+    width: 100%;
+    height: 100%;
+  }
+  .management-image{
+    width:100%;
+    height:70%;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+  }
+   .aboutus-textalign {
+    position:absolute;
+    left:1rem;
+    margin-top: -50vw;
+    font-size:7vw;
+    color:#4FD84F
+    } 
+    .marginLeft{
+      margin-left: 0.5rem;
+    }
+   .termsheading{
+     font-size:1rem;
+      }
+   .about-fontsize{
+     font-size:6vw;
+      }
+   .about-fontsize-xs{
+     font-size:4vw;
+      }
+      .trends{
+        margin-left: 1rem;
+      }
+   /* .about-trending {
+     position:absolute;
+     left:1rem;
+     margin-top: -17rem;
+     } */
+    .carousel-heading{
+     margin-left: 1rem;
+     margin-bottom: -2rem;
+     }
+     .jellyit-btn{
+        background-color: #4FD84F; 
+        width: 8.7rem;
+        border-color: #4FD84F;
+        border-radius: 30px;
+        text-align: center;
+        margin:auto;
+        padding-top:7px;
+        padding-bottom: 3px;
+      }
+      .fab-heading-left {
+        position:absolute;
+        left:1rem;
+        margin-top: -3.5rem;
+        color:white;
+        line-height: 1rem;
+       }
+       .fab-text{
+         font-size:3vw;
+       }
+       .termsheading{
+        font-size:1rem;
+      }
+      .aboutbutton{
+       background-color: #4FD84F; 
+       width: 25vw;
+       height:6vw;
+       border-color: #4FD84F;
+       border-radius: 0.8rem;
+       text-align: center;
+       margin-top:-0.13rem;
+       padding:0.1rem;
+       font-size:3vw;
+       }
+}

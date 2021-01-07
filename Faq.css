@@ -1,0 +1,60 @@
+.angleright{
+    padding :0.2rem;
+    color:#4FD84F;
+  }
+  .faq-top{
+  text-align:left;
+  margin-left:4.6rem;
+  margin-top:10rem;
+  }
+  .faq-left{
+    margin-left:3.68rem;
+  }
+  .signupbutton{
+    background-color: #4FD84F; 
+    width: 150px;
+    border-color: #4FD84F;
+    border-radius: 15px;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 0.7rem;
+  }
+  .signupbutton:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+  }
+  .faq-image{
+    width:100%;
+    height:70%;
+    margin-top: 2.5rem;
+  }
+  @media screen and (max-width: 960px) {
+    .faq-top{
+      text-align:left;
+      margin-left:1.3rem;
+      margin-top:10rem;
+      font-size:7vw;
+    }
+    .faq-left{
+      margin-left:0.3rem;
+     }
+    .faq-fontsize{
+      font-size: 7vw;
+     } 
+     .signupbutton{
+       background-color: #4FD84F; 
+       width: 20vw;
+       height:6vw;
+       border-color: #4FD84F;
+       border-radius: 0.5rem;
+       text-align: center;
+       margin-top:-0.13rem;
+       padding:0.1rem;
+       font-size:3vw;
+       }
+       .faq-image{
+        width:100%;
+        height:70%;
+        margin-top: 1.5rem;
+      }
+  }

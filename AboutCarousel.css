@@ -1,0 +1,37 @@
+.forbes-img{
+    width:50%;
+  }
+.textAlign {
+    position:absolute;
+    left:28rem;
+    margin-top: -25rem;
+    text-align:left;
+ }
+ .text-black{
+    color:black;
+  }
+  .forbes-size{
+    font-size: 1.125rem;
+    margin-top:-1.5rem;
+  }
+  .forbes-size-xs{
+    margin-top:0.1rem;
+  }
+  @media screen and (max-width: 960px) {
+ .textAlign {
+    position:absolute;
+    left:9.2rem;
+    margin-top: -6.5rem;
+  }
+  .fontSize{
+    font-size:1.6vw;
+  }
+  .forbes-size{
+    font-size: 1.8vw;
+    margin-top: -3.6rem;
+  }
+  .forbes-size-xs{
+    margin-top:-1rem;
+    font-size: 1.6vw;
+  }
+}
